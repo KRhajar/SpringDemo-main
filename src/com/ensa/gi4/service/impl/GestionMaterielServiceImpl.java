@@ -18,6 +18,10 @@ public class GestionMaterielServiceImpl implements GestionMaterielService {
     public GestionMaterielServiceImpl(MaterialDaoImp materialDaoImp) {
         this.materialDaoImp = materialDaoImp;
     }
+    // we can also use Field injection (inject the dependencies by setting the field values)
+    // we need to just do that no Setter method or constructor
+//    @Autowired
+//    private MaterialDaoImp materialDaoImp;
 
 //
 //    private MaterialDAO materialDAO;
